@@ -21,3 +21,28 @@ body {
   left: 0;
   width: 100%;
 }
+
+.nav.active{
+  color:white;
+  border-bottom: 1px solid #D68C45;
+  }
+
+
+  /* This is the animation for the logo */
+  
+  .logo-flip {
+    animation-name: spin, depth;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 6s;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(-360deg);
+    }
+  }
+  
+  
