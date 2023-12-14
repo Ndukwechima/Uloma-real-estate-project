@@ -29,7 +29,7 @@ body {
 
 
   /* This is the animation for the logo */
-  
+
   .logo-flip {
     animation-name: spin, depth;
     animation-timing-function: linear;
@@ -44,5 +44,75 @@ body {
       transform: rotateY(-360deg);
     }
   }
+
+
+  .picture {
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  }
+
+  .sony-sixteen {
+    background-image:url(../src/assets/images/pexels-sonny-sixteen-14019522.jpg);
+    
+    
+}
+
+.mission {
+  background-image:url(../src/assets/images/pexels-mart-production-7415023.jpg);
+  transform: translatex(100%);
+  transform: translate(0%);
+  animation: move-in 5s ease-in-out 1;
+  transform-origin: center;
+  width:100%
+  
+}
+
+@keyframes move-in {
+  from {
+    transform: translatex(-100%);
+  }
+
+  to {
+    transform: translatex(30%);
+  }
+}
+ 
+
+.vision {
+  background-image:url(../src/assets/images/pexels-mart-production-7415064.jpg);
+  transform: translatex(100%);
+  transform: translate(0%);
+  animation: move-in-right 5s ease-in-out 1;
+  transform-origin: center;
+  width:100%
+  
+}
+
+@keyframes move-in-right {
+  from {
+    transform: translatey(-100%);
+  }
+
+  to {
+    transform: translatey(30%);
+  }
+}
+ 
+
+.management {
+  background-image:url(../src/assets/images/Aba-Abia-State.webp);
+  
+}
+
+.project {
+  transform: translatex(100%);
+  transform: translate(0%);
+  animation: move-in 5s ease-in-out 1;
+  transform-origin: center;
+  width:100%
+}
+
+
   
   
