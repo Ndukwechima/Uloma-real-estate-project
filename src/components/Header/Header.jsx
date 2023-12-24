@@ -28,6 +28,7 @@ const Header = () => {
             <li className='lg:h-[10vh] p-3 flex items-center justify-center '><NavLink to={"/Blog"} className="nav lg:h-[10vh] flex justify-center items-center w-[100%] p-3">Blog</NavLink></li>
             <li className='lg:h-[10vh] p-3 flex items-center justify-center '><NavLink to={"/Signup"} className="nav lg:h-[10vh] flex justify-center items-center w-[100%] p-3 min-w-[100px]">Sign Up</NavLink></li>
             <li className='lg:h-[10vh] p-3 flex items-center justify-center '><NavLink to={"/Login"} className="nav lg:h-[10vh] flex justify-center items-center w-[100%] p-2 min-w-[80px]">Log In</NavLink></li>
+            <li className='lg:h-[10vh] p-3 flex items-center justify-center '><NavLink to={"/Dashboard"} className="nav lg:h-[10vh] flex justify-center items-center w-[100%] p-2 min-w-[80px]">Dashboard</NavLink></li>
           </ul>
           <div className="dropdown dropdown-end lg:hidden">
             <div tabIndex={0} role="button" className="btn btn-ghost  flex items-center justify-center">
@@ -43,6 +44,7 @@ const Header = () => {
               <li className='p-3 flex items-center justify-center'><NavLink to={"/Blog"}>Blog</NavLink></li>
               <li className='p-3 flex items-center justify-center'><NavLink to={"/Signup"}>Sign Up</NavLink></li>
               <li className='p-3 flex items-center justify-center'><NavLink to={"/Login"}>Log In</NavLink></li>
+              <li className='lg:h-[10vh] p-3 flex items-center justify-center '><NavLink to={"/Dashboard"}>Dashboard</NavLink></li>
             </ul>
           </div>
         </div>
