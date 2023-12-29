@@ -156,32 +156,32 @@ const Dashboard = () => {
                                 </form>
                                 <div className="typeOfPlace flex w-full flex-col gap-2 ">
                                     <h1 className="text-sm md:text-2xl lg:text-sm text-textOrange">Type of place</h1>
-                                    <div className="flex items-center  gap-5">
-                                        <form className="check" id="check1" action="check1" className="flex flex-1 gap-2">
-                                            <input type="checkbox" className="accent-textOrange " />
-                                            <label className="text-sm md:text-xl lg:text-sm" >All</label>
-                                        </form>
-                                        <form className="check" id="check2" action="check2" className="flex flex-1 gap-2">
+                                    <div className="flex items-center gap-5">
+                                        <form className="check" id="check1" action="" >
                                             <input type="checkbox" className="accent-textOrange" />
-                                            <label className="text-sm md:text-xl lg:text-sm" >Office</label>
+                                            <label className="text-sm md:text-xl lg:text-sm ml-2">All</label>
+                                        </form>
+                                        <form className="check" id="check2" action="">
+                                            <input type="checkbox" className="accent-textOrange ml-20" />
+                                            <label className="text-sm md:text-xl lg:text-sm ml-2">Office</label>
                                         </form>
                                     </div>
-                                    <div className="flex items-center  gap-4">
-                                        <form className="check" id="check3" action="check3" className="flex flex-1 gap-2">
+                                    <div className="flex items-center gap-4">
+                                        <form className="check" id="check3" action="" >
                                             <input type="checkbox" className="accent-textOrange" />
-                                            <label className="text-sm md:text-xl lg:text-sm" >Building</label>
+                                            <label className="text-sm md:text-xl lg:text-sm ml-2">Building</label>
                                         </form>
-                                        <form className="check" id="check4" action="check4" className="flex flex-1 gap-2">
-                                            <input type="checkbox"  className="accent-textOrange"/>
-                                            <label className="text-sm md:text-xl lg:text-sm" >Shop</label>
+                                        <form className="check" id="check4" action="" >
+                                            <input type="checkbox" className="accent-textOrange ml-12" />
+                                            <label className="text-sm md:text-xl lg:text-sm ml-2">Shop</label>
                                         </form>
                                     </div>
                                     <div className="flex items-center  gap-5">
-                                        <form id="check5" action="check5" className="flex flex-1 gap-2">
+                                        <form id="check5" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox" className="accent-textOrange"/>
                                             <label id="appartment" className="text-sm md:text-xl lg:text-sm" >Appartment</label>
                                         </form>
-                                        <form id="check6" action="check6" className="flex flex-1 gap-2">
+                                        <form id="check6" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox" className="accent-textOrange" />
                                             <label  className="text-sm md:text-xl lg:text-sm" >House</label>
                                         </form>
@@ -199,21 +199,21 @@ const Dashboard = () => {
                                 <div className="features flex flex-col gap-2">
                                     <h1 className="text-sm md:text-2xl lg:text-sm text-textOrange">Features</h1>
                                     <div className="flex items-center  gap-5">
-                                        <form name="check7" action="check7" className="flex flex-1 gap-2">
+                                        <form name="check7" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox" className="accent-textOrange" />
                                             <label className="text-xs md:text-xl lg:text-sm" >AC & Heater</label>
                                         </form>
-                                        <form name="check8" action="check8" className="flex flex-1 gap-2">
+                                        <form name="check8" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox" className="accent-textOrange"/>
                                             <label className="text-xs md:text-xl lg:text-sm" >Clubhouse</label>
                                         </form>
                                     </div>
                                     <div className="flex items-center  gap-4">
-                                        <form name="check9" action="check9" className="flex flex-1 gap-2">
+                                        <form name="check9" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox"  className="accent-textOrange"/>
                                             <label className="text-xs md:text-xl lg:text-sm" >Dishwasher</label>
                                         </form>
-                                        <form name="check10" action="check10" className="flex flex-1 gap-2">
+                                        <form name="check10" action="" className="flex flex-1 gap-2">
                                             <input type="checkbox" className="accent-textOrange" />
                                             <label className="text-xs md:text-xl lg:text-sm" >Spa</label>
                                         </form>
