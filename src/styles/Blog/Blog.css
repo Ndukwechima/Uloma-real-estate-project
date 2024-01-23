@@ -1,0 +1,8 @@
+.blog-bg-img {
+  background-image: url("../../assets/images/research.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  margin-top: 5em;
+}
