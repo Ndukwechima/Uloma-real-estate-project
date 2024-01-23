@@ -8,6 +8,7 @@ import Blog from "./pages/Blog/Blog";
 import Services from "./pages/Services/Services";
 import Login from "./pages/LandLordForm/Login";
 import Signup from "./pages/LandLordForm/Signup";
+import Property from "./pages/Property/Property";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/property" element={<Property />} />
         </Routes>
       </BrowserRouter>
     </>

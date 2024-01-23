@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
-    <div className="bg-lightBlue mx-auto  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col">
+    <div className="bg-lightBlue mx-auto  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col mt-[8rem]">
       {/* <Uloma /> */}
       <div className="mx-auto min-h-[100vh] lg:min-h-[74vh] w-[] flex gap-5 flex-col  lg:flex-row px- lg:px items-center justify-between ">
         <div className=" h-[50vh] md:h-[60vh] w-[100%] flex flex-col items-start justify-center gap-3 md:gap-10 px-10 bg-darkBlue rounded-3xl md:flex-1 shadow-lg">
