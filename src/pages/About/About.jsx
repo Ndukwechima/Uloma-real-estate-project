@@ -6,6 +6,9 @@ import { NavLink } from "react-router-dom";
 const About = () => {
   return (
 
+    <div className="bg-lightBlue mx-auto  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col mt-[8rem]">
+
+
     <>
       <Header />
       <div className="bg-lightBlue mx-auto  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col">

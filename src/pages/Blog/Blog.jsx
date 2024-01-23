@@ -11,7 +11,7 @@ import { FaArrowRight } from "react-icons/fa6";
 const Blog = () => {
   return (
     <NavLink to="/blog">
-      <section className="bg-lightBlue w-[100%]">
+      <section className="bg-lightBlue w-[100%] mt-[7rem]">
         <div className="w-[100%] flex justify-center items-center">
           <div className="blog-bg-img w-[80%] h-[30vw]">
             <div>
