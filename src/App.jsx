@@ -8,6 +8,7 @@ import Blog from "./pages/Blog/Blog";
 import Services from "./pages/Services/Services";
 import Login from "./pages/LandLordForm/Login";
 import Signup from "./pages/LandLordForm/Signup";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
+            <Route path="/Dashboard" element={<Dashboard />}> </Route>
+
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
