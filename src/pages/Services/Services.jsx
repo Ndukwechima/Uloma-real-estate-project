@@ -1,7 +1,13 @@
-import React from "react";
-
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 const Services = () => {
-  return <div>Services</div>;
+  return(
+    <>
+      <Header />
+      <div> Services</div>
+      <Footer />
+    </>
+    )
 };
 
 export default Services;
