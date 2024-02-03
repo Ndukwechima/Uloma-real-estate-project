@@ -2,7 +2,7 @@ import { FaPlus } from "react-icons/fa6";
 import Servimg from "../../assets/images/house.jpg";
 import Backpic from "../../assets/images/WOODhouse.jpg";
 import MainTain from "../../assets/images/property maintainance.jpg";
-import Security from "../../assets/images/deposits_.jpg";
+import Security from "../../assets/images/deposits.jpg";
 
 const Services = () => {
   return (
