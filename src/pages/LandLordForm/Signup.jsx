@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/uloma white.png";
 
 const Signup = () => {
@@ -6,9 +7,9 @@ const Signup = () => {
       className="min-h-screen flex items-center justify-center bg-cover bg-center relative bg-lightBlue"
       style={{ backgroundImage: 'url("../../images/house.jpg")' }}
     >
-      <div className="w-[10%] absolute top-4 left-8">
+      <NavLink to="/" className="w-[10%] absolute top-4 left-8">
         <img src={Logo} alt="" />
-      </div>
+      </NavLink>
       <div className="bg-darkBlue p-8 rounded shadow-md max-w-md w-full">
         <h2 className="text-2xl font-semibold mb-6">Sign Up</h2>
         <form>
@@ -77,7 +78,9 @@ const Signup = () => {
         </form>
         <div className="flex items-center py-2">
           <p className="text-[14px]">Already have an Account?</p>
-          <button className="text-white mx-1">Login</button>
+          <NavLink to="/login" className="text-white mx-1">
+            Login
+          </NavLink>
         </div>
       </div>
     </div>

@@ -1,13 +1,11 @@
-
 import { FaPhoneVolume, FaFacebook, FaTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { IoLocation } from "react-icons/io5";
 import { FaInstagramSquare } from "react-icons/fa";
 
-
 const Contact = () => {
   return (
-    <section className="bg-darkBlue">
+    <section className="bg-darkBlue mt-8">
       <div>
         <div className="text-center py-[10rem]">
           <h1 className="text-2xl text-textOrange font-bold ">Contact Us</h1>
@@ -51,7 +49,7 @@ const Contact = () => {
               </div>
             </div>
             {/* Right side */}
-            <section className="bg-white border border-yellow-400  w-[50%] p-10 h-[30vw] shadow-md rounded-md">
+            <section className="bg-white  w-[50%] p-10 h-[30vw] shadow-lg rounded-md">
               <div>
                 <h1 className="text-center text-2xl text-black ">
                   Send us an Email
@@ -76,7 +74,7 @@ const Contact = () => {
                       className="w-[25vw] h-8 m-5 bg-white shadow-md"
                     />
                     <br />
-                    <button className=" bg-textOrange text-white w-[9vw] rounded-sm font-semibold h-8 shadow-sm ml-5">
+                    <button className=" bg-textOrange text-white w-[12vw] rounded-sm font-semibold h-8 shadow-sm ml-5">
                       Send Message
                     </button>
                   </form>

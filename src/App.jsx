@@ -12,7 +12,6 @@ import Signup from "./pages/LandLordForm/Signup";
 import Property from "./pages/Property/Property";
 import Dashboard from "./pages/Dashboard/Dashboard";
 
-
 function App() {
   return (
     <>
@@ -24,10 +23,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/Dashboard" element={<Dashboard />}> </Route>
-
+            <Route path="/dashboard" element={<Dashboard />} />
           </Route>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

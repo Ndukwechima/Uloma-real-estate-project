@@ -1,11 +1,12 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/images/uloma white.png";
 
 const Property = () => {
   return (
-    <section className="w-[100%] bg-darkBlue">
-      <div className="py-10 px-10 fixed">
+    <section className="w-[100%] bg-darkBlue top-0">
+      <NavLink to="/" className="py-10 px-10 fixed">
         <img src={Logo} alt="logo" width={100} />
-      </div>
+      </NavLink>
       <div className=" w-[100%] flex justify-center items-center">
         <div className="w-[60%] border bg-white py-10">
           <div className="py-4 px-4">
@@ -75,12 +76,12 @@ const Property = () => {
                 type="text"
                 className=" w-[20vw] h-8 ml-[5em] mt-2 bg-transparent border border-black rounded-md "
               />
-              <label className="text-[12px] text-black flex justify-center items-center mt-3">
+              <label className="text-[8px] text-black flex justify-center items-center mt-3">
                 Upload Property Photos here (5MB Max)
               </label>
               <input
-                type="text"
-                className=" w-[20vw] h-8 ml-[5em] mt-2 bg-transparent border border-black rounded-md "
+                type="file"
+                className=" w-[20vw] h-8 ml-[5em] mt-2 bg-transparent border  rounded-md "
               />
               <div className="flex space-x-3 mt-3 ml-5">
                 <p className="text-black ml-4">Is pets allow?</p>
@@ -103,14 +104,17 @@ const Property = () => {
                   Terms and Conditions Agreement
                 </p>
                 <label className="text-[10px] mt-8 text-black">
-                  I agree to the platform's terms and conditions
+                  I agree to the platforms terms and conditions
                 </label>
                 <input type="checkbox" className="ml-2 mt-8" />
               </div>
               <div className="flex justify-center items-center mt-4">
-                <button className="w-24 py-1 bg-textOrange text-white font-semibold rounded-sm">
+                <NavLink
+                  to="/dashboard"
+                  className="w-24 py-1 flex justify-center items-center bg-textOrange text-white font-semibold rounded-sm"
+                >
                   Submit
-                </button>
+                </NavLink>
               </div>
             </form>
           </div>
