@@ -2,7 +2,7 @@ import { FaPlus } from "react-icons/fa6";
 import Servimg from "../../assets/images/house.jpg";
 import Backpic from "../../assets/images/WOODhouse.jpg";
 import MainTain from "../../assets/images/property maintainance.jpg";
-import Security from "../../assets/images/deposits.jpg";
+// import Security from "../../assets/images/deposits.jpg";
 
 const Services = () => {
   return (
@@ -280,9 +280,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <img src={Security} alt="Deposite" />
-              </div>
+              <div>{/* <img src={Security} alt="Deposite" /> */}</div>
             </div>
           </div>
         </section>
