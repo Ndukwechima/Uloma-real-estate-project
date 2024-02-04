@@ -22,7 +22,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <section className="w-[100%] bg-lightBlue h-[40vh] ">
+        <section className=" bg-lightBlue h-[40vh] ">
           <div className=" flex items-center justify-center absolute -mt-[6em] left-[6em]">
             <div className="flex w-[75vw] place-content-center ml-[5rem] ">
               <div className=" w-max-[100%] absolute right-[36em]">
