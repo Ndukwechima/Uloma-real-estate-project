@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 import "../../styles/Blog/Blog.css";
 import Furniture from "../../assets/images/furniture.jpg";
@@ -151,7 +150,7 @@ const Blog = () => {
               <div className="py-10">
                 <p className="text-textOrange text-3xl">Recent Articles</p>
                 <p className="text-textGray">
-                  Here's what we're been up to recently
+                  Here is what we are been up to recently
                 </p>
               </div>
               <button className="text-white flex items-center ">
