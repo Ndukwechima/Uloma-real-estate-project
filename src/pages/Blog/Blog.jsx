@@ -3,7 +3,7 @@ import "../../styles/Blog/Blog.css";
 import Furniture from "../../assets/images/furniture.jpg";
 import Poster from "../../assets/images/poster.jpg";
 import Mother from "../../assets/images/mother.jpg";
-import Base from "../../assets/images/base.png";
+// import Base from "../../assets/images/base.png";
 import Net from "../../assets/images/net.png";
 import { FaArrowRight } from "react-icons/fa6";
 
@@ -518,9 +518,7 @@ const Blog = () => {
             </div>
             <div className=" w-[30%] flex justify-center items-center">
               <div>
-                <div>
-                  <img src={Base} width={300} alt="base" />
-                </div>
+                <div>{/* <img src={Base} width={300} alt="base" /> */}</div>
                 <div>
                   <p className="text-white text-[1.3rem] py-2">
                     The best aticles every week
