@@ -11,17 +11,19 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="">
-      <div className=" bg-darkBlue h-[auto] flex flex-col">
+      <div className=" bg-darkBlue flex flex-col">
         <div className="flex flex-col lg:flex-row md:gap-10 items-center justify-between md:px-40 py-10 ">
           <div className=" w-[100vw]  p-10 flex-1 flex flex-wrap items-center justify-around md:items-center md:p-20 md:gap-5 flex-col">
             <NavLink to={"/"} className="btn btn-ghost text-xl w-[30%">
               <img src={Logo} alt="uloma-logo" className="w-[100px]" />
             </NavLink>
-            <p className=" text-left text-md">
-              At Uloma Estate LTD, our mission is to provide comprehensive
-              property management that empowers landlords and businesses to
-              manage their properties and tenants.{" "}
-            </p>
+            <div>
+              <p className=" text-left text-md">
+                At Uloma Estate LTD, our mission is to provide comprehensive
+                property management that empowers landlords and businesses to
+                manage their properties and tenants.{" "}
+              </p>
+            </div>
             <div className="flex gap-4 items-center justify-start w-[80%]">
               <span className="flex items-center justify-center  p-3 box-border bg-darkBlue text-white rounded-full">
                 <TfiFacebook className="text-white" />

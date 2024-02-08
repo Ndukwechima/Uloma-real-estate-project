@@ -5,16 +5,16 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section className="bg-darkBlue mt-8">
+    <section className="bg-darkBlue lg:mt-[8rem] md:mt-[4rem] ">
       <div>
         <div className="text-center py-[10rem]">
           <h1 className="text-2xl text-textOrange font-bold ">Contact Us</h1>
           <p>Any question or remarks, just write us a message!</p>
         </div>
         <div className="w-[100%] flex items-center justify-center">
-          <div className="w-[90%] flex justify-around items-center">
+          <div className="w-[90%] flex  flex-col md:flex-row lg:flex-row space-y-8 justify-around  items-center space-x-4">
             {/* Left side */}
-            <div className="bg-lightBlue w-[30%] p-10 h-[30vw] shadow-md rounded-md">
+            <div className="bg-lightBlue w-[70%] md:w-[50%] lg:w-[30%] p-10  shadow-md rounded-md">
               <h1 className="2xl text-center font-bold text-white ">
                 Contact Information
               </h1>
@@ -49,32 +49,32 @@ const Contact = () => {
               </div>
             </div>
             {/* Right side */}
-            <section className="bg-white  w-[50%] p-10 h-[30vw] shadow-lg rounded-md">
-              <div>
+            <section className="flex justify-center items-center bg-white w-[70%] md:w-[50%] lg:w-[40%] py-[5em]  shadow-lg rounded-md">
+              <div className="">
                 <h1 className="text-center text-2xl text-black ">
                   Send us an Email
                 </h1>
-                <div className="flex justify-center items-center mt-5">
-                  <form action="">
+                <div className=" flex justify-center items-center mt-5">
+                  <form>
                     <input
                       type="text"
                       placeholder="Enter your full Name"
-                      className="w-[25vw] h-8 m-5 bg-white shadow-md"
+                      className="w-[34vw] md:w-[24vw] lg:w-[20vw] text-[0.8em] bg-white shadow-md pl-2  "
                     />
                     <br />
                     <input
                       type="text"
                       placeholder="Enter your Email"
-                      className="w-[25vw] h-8 m-5 bg-white shadow-md"
+                      className="w-[34vw] md:w-[24vw] lg:w-[20vw] text-[0.8em] mt-5 bg-white shadow-md pl-2"
                     />
                     <br />
                     <input
                       type="text"
                       placeholder="Enter your Phone Number"
-                      className="w-[25vw] h-8 m-5 bg-white shadow-md"
+                      className="w-[34vw] md:w-[24vw] lg:w-[20vw] text-[0.8em] mt-5 bg-white shadow-md pl-2"
                     />
                     <br />
-                    <button className=" bg-textOrange text-white w-[12vw] rounded-sm font-semibold h-8 shadow-sm ml-5">
+                    <button className=" bg-textOrange text-white rounded-sm font-semibold text-[0.8em] shadow-sm px-4 py-1 mt-4">
                       Send Message
                     </button>
                   </form>
@@ -91,7 +91,7 @@ const Contact = () => {
               style={{ border: "0" }}
               allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              // referrerpolicy="no-referrer-when-downgrade"
               className="w-[800px] h-[400px]"
             ></iframe>
           </div>

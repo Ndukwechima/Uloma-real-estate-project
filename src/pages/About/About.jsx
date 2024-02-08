@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const About = () => {
   return (
-    <>
-      <div className="bg-lightBlue mx-auto  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col mt-[8rem]">
+    <div>
+      <div className="bg-lightBlue py-4  px-10 lg:px-20 pt-10 flex items-start justify-start flex-col lg:mt-[8rem] md:mt-[4rem]">
         <div className="mx-auto min-h-[100vh] lg:min-h-[74vh] w-[] flex gap-5 flex-col  lg:flex-row px- lg:px items-center justify-between ">
-          <div className=" h-[50vh] md:h-[60vh] w-[100%] flex flex-col items-start justify-center gap-3 md:gap-10 px-10 bg-darkBlue rounded-3xl md:flex-1 shadow-lg">
+          <div className=" md:h-[60vh] py-6 w-[100%] flex flex-col items-start justify-center gap-3 md:gap-10 px-10 bg-darkBlue mt-[3rem] md:mt-[0rem] lg:mt-[0rem] rounded-3xl md:flex-1 shadow-lg">
             <h1 className=" text-xl font-bold ">
               {" "}
               Welcome to Uloma. Where real estate management meets{" "}
@@ -33,7 +33,7 @@ const About = () => {
             <h1 className="font-bold text-2xl ">
               Mission & <span className=" text-textOrange"> Vision</span>
             </h1>
-            <p className="lg:w-[50%] text-xl text-justify">
+            <p className="lg:w-[50%] text-xl">
               We envision being a leading force in the industry, driven by
               innovation,integrity and inclusivity, creating a brighter
               financial future for individuals and businesses while maintaining
@@ -44,7 +44,7 @@ const About = () => {
             <div className=" picture mission h-[60vh] lg:flex-1 flex items-center justify-center lg:h-[50vh] w-full border-2 border-solid border-textOrange shadow-lg rounded-3xl"></div>
             <div className="flex flex-col flex-1 items-start justify-center">
               <h1 className="text-textOrange font-bold text-2xl">Mission</h1>
-              <p className="text-xl text-justify">
+              <p className="text-xl">
                 We envision being a leading force in the industry, driven by
                 innovation,integrity and inclusivity, creating a brighter
                 financial future for individuals and businesses while
@@ -56,24 +56,23 @@ const About = () => {
           <div className="flex gap-10 flex-col lg:flex-row items-center justify-center lg:px-20">
             <div className="flex flex-col flex-1 items-start justify-center">
               <h1 className="text-textOrange font-bold text-2xl">Vision</h1>
-              <p className="text-xl text-justify">
+              <p className="text-xl">
                 Our vision in Uloma is to redefing property management by
                 creating a seamless and personalized experience for Landlords
                 and tenants alike. We envision a future where property
                 management is assessible, transparent and tailored to individual
-                preferences. <br /> <br /> Through continuous innovation and
-                collaboration, we strive to be at the forefront of the industry,
-                setting new standards for customer-centric property management.
-                Our vision is to be the prefered property agency known for
-                unwavering committment to excellence, trust and customer
-                satisfaction.
+                preferences. Through continuous innovation and collaboration, we
+                strive to be at the forefront of the industry, setting new
+                standards for customer-centric property management. Our vision
+                is to be the prefered property agency known for unwavering
+                committment to excellence, trust and customer satisfaction.
               </p>
             </div>
-            <div className=" picture vision h-[60vh] lg:flex-1 flex items-center justify-center lg:h-[50vh] w-full border-2 border-solid border-textOrange shadow-lg rounded-3xl"></div>
+            <div className=" picture vision lg:flex-1 flex items-center justify-center lg:h-[50vh] w-full border-2 border-solid border-textOrange shadow-lg rounded-3xl"></div>
           </div>
         </div>
-        <div className="mx-auto h-[170vh] px-10 lg:mt-20 lg:px-20 property-management w-full flex-col md:flex-row gap-10 lg:gap-2 items-start justify-start lg:flex-row">
-          <div className="mx-auto flex bg-darkBlue h-[80vh] w-full flex-col items-center justify-start p-10 lg:w-full gap-10 lg:gap-1 rounded-tl-3xl rounded-br-3xl shadow-lg border-4 border-solid border-textOrange">
+        <div className="mx-auto px-10 lg:mt-20 lg:px-20 property-management w-full flex-col md:flex-row gap-10 lg:gap-2 items-start justify-start lg:flex-row">
+          <div className="mx-auto flex bg-darkBlue  w-full flex-col items-center justify-start p-10 lg:w-full gap-10 lg:gap-1 rounded-tl-3xl rounded-br-3xl shadow-lg border-4 border-solid border-textOrange">
             <h1 className="text-textOrange text-3xl font">
               PROPERTY MANAGEMENT
             </h1>
@@ -93,17 +92,19 @@ const About = () => {
               for space reservation with a minimal fee. .
             </p>
           </div>
-          <div className=" picture management mt-10 w-full lg:w-full h-[80vh] rounded-3xl border-4 border-solid border-textOrange shadow-lg"></div>
+          <div className=" picture management mt-10 w-full lg:w-full h-[40vh] md:h-[60vh] lg:h-[80vh] rounded-3xl border-4 border-solid border-textOrange shadow-lg"></div>
+
+          <div className="flex items-center justify-center py-8">
+            <NavLink
+              to={"/"}
+              className="btn w-[50vw] md:w-[30vw]  lg:w-[20vw] bg-textOrange  border-none outline-none text-white"
+            >
+              Return to Home Page
+            </NavLink>
+          </div>
         </div>
-        <NavLink to={"/"} className="self-center my-10">
-          <button className="btn bg-textOrange border-none outline-none text-white">
-            {" "}
-            Return to Home Page
-          </button>
-        </NavLink>
       </div>
-      {/* <Footer /> */}
-    </>
+    </div>
   );
 };
 

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Uloma from "../../assets/images/uloma white.png";
-import { IoMenu } from "react-icons/io5";
+// import { IoMenu } from "react-icons/io5";
 import { IoSearchOutline } from "react-icons/io5";
 import { BiSolidHome } from "react-icons/bi";
 import { BiGitCompare } from "react-icons/bi";
@@ -60,20 +59,14 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="z-40  w-full box-border min-h-[100vh] h-auto bg-darkBlue md:p-5 flex flex-col lg:flex-row  justify-between mt-[5rem]">
+    <div className="z-40  w-full box-border min-h-[100vh] h-auto bg-darkBlue md:p-5 flex flex-col lg:flex-row  justify-between lg:mt-[8rem] md:mt-[4rem]">
       <div className="lg:h-[100vh] bg-darkBlue p-6 md:px-10 md:gap-10 lg:fixed lg:top-0   lg:p-4 flex items-start justify-start flex-col box-border lg:border-r-2 lg:border-white gap-4">
-        <NavLink to="/" className=" flex items-center justify-between  w-full">
-          <img
-            src={Uloma}
-            alt="uloma-logo"
-            className="logo-flip w-[150px] lg:w-[100px]"
-          />
+        {/* <NavLink to="/" className=" flex items-center justify-between  w-full">
           <IoMenu
             onClick={loadMenu}
             className="text-3xl md:text-5xl lg:hidden"
           />
-        </NavLink>
-        {/* <div cl> */}
+        </NavLink> */}
         <form
           id="search"
           className="flex w-full md:h-[50px] lg:h-[30px] p-1 items-center justify-between gap-2 bg-textGray rounded-md mt-[7rem]"
@@ -85,7 +78,6 @@ const Dashboard = () => {
             className="placeholder-gray-800 md:w-[70%] bg-transparent border-none outline-none text-gray-800"
           />
         </form>
-        {/* </div> */}
 
         <div className=" w-full h-[35vh] hidden lg:flex flex-col p-5 items-start gap-4">
           <section className="bg-transparent border-none outline-none flex flex-col space-y-4">
@@ -205,7 +197,7 @@ const Dashboard = () => {
                 <MdOutlineLocationOn className="md:h-[100%] md:w-[20%] " />
                 <IoIosArrowDown className="md:h-[100%] md:w-[20%] " />
               </form>
-              <div className="typeOfPlace flex w-full flex-col gap-2 ">
+              <div className="typeOfPlace flex w-full flex-col gap-2 mb-10 ">
                 <h1 className="text-sm md:text-2xl lg:text-sm text-textOrange">
                   Type of place
                 </h1>
